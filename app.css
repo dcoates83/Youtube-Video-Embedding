@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #f9f9f9;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of css reset */
+
+
+
+#top-right-nav {
+	float: right;
+	display: inline;
+	line-height: inherit;
+	padding-top: 15px;
+	margin-right: -15px;
+}
+
+#search {
+   
+	width: 40%;
+  height: 33px;
+  padding: 0 10px;
+  color: #000;
+  border: 1px solid #BEBEBE;
+  border-radius: 2px 0 0 2px;
+position: absolute;
+margin: 21px 0 20px 10px;
+
+}
+#logo {
+	display: inline-block;
+	padding-top: 20px;
+}
+#
+
+  /*
+  #search-bar {
+	
+	margin: 40px auto;
+	line-height: 56px;
+	position: relative
+	
+	font-weight: 400;
+    line-height: 24px;
+	margin-left: 20px;
+    max-width: 100%;
+    opacity: .6;
+    text-align: center;
+    width: 22%;
+	display: inline-block;
+	position: absolute;
+	margin-top: 22px;
+  } */
+  
+  input[type="text"] {
+	width: 42%;
+	height: 33px;
+	padding: 0 10px;
+	color: #000;
+	border: 1px solid #BEBEBE;
+	border-radius: 2px 0 0 2px;
+	z-index: 2;
+	display: inline;
+	/* margin-left: 30%; */
+  }
+  
+  input:focus {
+	border: 1.1px solid #1c62b9;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.4);
+  }
+  
+  button {
+	position: relative;
+	width: 11%;
+	height: 33px;
+	border: 1px solid #BEBEBE;
+	border-left: 0;
+	top: -6px;
+	right: -35%;
+	border-radius: 0px 2px 2px 0;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+	background-color: #f0f0f0;
+	z-index: 1
+  }
+  button i {
+	opacity: .5;
+	transition: all .07s ease-in-out
+  }
+  
+  button:hover i {
+	opacity: .95
+  }
+  
+  button:hover {
+	background-color: #E4E4E4;
+	box-shadow: 0 1px 1px rgba(0,0,0,.15),
+	  inset 0 0 2px rgba(0,0,0,.05);
+	transition: all .07s ease-in-out
+  }
+  
+ #search-logo {
+	 display: inline;
+	 height: 15px;
+ }
+
+ #main-video {
+	 width: 100%;
+ }
+ .video-header {
+	color:rgb(3, 3, 3);
+display:inline-block;
+font-family:Roboto, Arial, sans-serif;
+font-size:22px;
+font-weight:400;
+height:auto;
+line-height:24px;
+text-shadow:none;
+text-size-adjust:100%;
+width:auto;
+word-break:break-word;
+padding-bottom: 20px;
+ }
+
+ .views {
+	
+	color:rgb(96, 96, 96);
+	display:inline;
+	font-family:Roboto, Arial, sans-serif;
+	font-size:14px;
+	font-weight:400;
+	height:auto;
+	width:auto;
+ }
+
+ .date-text{
+	display:block;
+	font-family:Roboto, Arial, sans-serif;
+	font-size:10px;
+	height:64px;
+	padding-bottom:8px;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:20px;
+	text-size-adjust:100%;
+	width:586px;
+ }
+ .comments {
+	 float: left;
+	 display: inline-block;
+ }
+ .side-videos {
+	 float: right;
+	 display: inline-block;
+ }
+ .container {
+	 display: grid;
+	 grid-template-columns: 2.5fr 1fr;
+ }
+
+.likes {
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -35px;
+	right: -60px;
+	
+}
+
+.video-header-hr {
+	width: 90%;
+	position: relative;
+	top: -15px;
+	opacity: .5;
+}
+
+li{
+	padding: 7px;
+}
+
+#see-more-id{
+	height: 100%;
+	position: relative;
+	top: -18px;
+	
+}
+.padding-videos{
+	padding: 5px;
+}
+
+h5{
+	font-weight: 600;
+font-size: .95em;
+line-height: 1.8rem;
+display: inline;
+}
+.comment-date {
+	color: rgb(96, 96, 96);
+	display: inline;
+	/* float: right; */
+	font-size: 13px;
+	font-family: Roboto, Arial, sans-serif;;
+	
+}
